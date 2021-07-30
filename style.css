@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&family=Qahiri&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://media.istockphoto.com/photos/star-field-at-night-picture-id501655522?b=1&k=6&m=501655522&s=170667a&w=0&h=iEyaK63fm1wAtiW6ugh-CX6ePVl7lvZNzpd2d4Z4Vq4=');
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+}
+
+.newgame {
+    background-color: rgb(6, 202, 6);
+    color: white;
+    border-radius: 10px;
+}
+
+.newgame:hover {
+    color: black;
+}
+
+
+.go {
+    color: red;
+    font-family: 'Otomanopee One', sans-serif;
+    display: none;
+}
+
+.whole {
+    display: flex;
+    justify-content: center;
+}
+
+.gameover {
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
+    display: none;
+}
+
+.win {
+    background-color: rgb(16, 214, 16);
+    color: white;
+    text-align: center;
+    font-family: 'Otomanopee One', sans-serif;
+    display: none;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+    border: 2px solid white;
+    grid-gap: 2px;
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+    /* border: 2px solid black; */
+    border-radius: 15px;
+}
+
+.alien {
+    background-color: blue;
+}
+
+.shoot {
+    background-color: rgb(196, 28, 28);
+}
+
+.fire {
+    background-color: red;
+}
